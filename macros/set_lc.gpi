@@ -1,0 +1,14 @@
+
+set linetype 1  lc rgb Color(color1);
+set linetype 2  lc rgb Color(color2);
+set linetype 3  lc rgb Color(color3);
+set linetype 4  lc rgb Color(color4);
+set linetype 5  lc rgb Color(color5);
+set linetype 6  lc rgb Color(color6);
+set linetype 7  lc rgb Color(color7);
+set linetype 8  lc rgb Color(color8);
+set linetype 9  lc rgb Color(color9);
+set linetype 10 lc rgb Color(color10);
+set linetype 11 lc rgb Color(color11);
+set linetype 12 lc rgb Color(color12);
+

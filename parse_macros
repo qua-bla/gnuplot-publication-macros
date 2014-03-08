@@ -1,0 +1,26 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source "${DIR}/defaults.bash"
+
+out="${project_name}.gpi"
+
+echo pre macros
+cat pre-macros.gpi > $out
+
+echo 'macros:'
+for path in macros/*.gpi; do
+    file="`basename $path`"
+    macro="${file%.*}"
+    echo @$macro
+
+    code="`cat ${path} | grep -v -E '^\#|^$'  | sed ':a;N;$!ba;s/\\\\/\\\\\\\\/g' | sed ':a;N;$!ba;s/\n/ /g'`"
+    echo "
+${macro}='${code}'" >> $out
+done
+echo '---'
+
+echo post macros
+cat post-macros.gpi >> $out
+
+echo load file $out ready
+

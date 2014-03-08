@@ -1,0 +1,19 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source "${DIR}/defaults.bash"
+
+if [[ $1 ]]; then
+    dir=$1
+else
+    dir='.'
+fi
+
+olddir="`pwd`"
+cd "${dir}"
+
+for file in `ls *.tex | grep -v gnuplot`; do
+    rtex $file
+done
+
+cd "${olddir}"
+

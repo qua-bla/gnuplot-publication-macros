@@ -1,0 +1,2 @@
+set format x "\R{%.0P\uppi}";
+set xtics 2*pi;

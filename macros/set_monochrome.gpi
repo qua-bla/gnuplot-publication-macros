@@ -1,0 +1,17 @@
+grid_color = color_monochrome;
+
+color1 = color_monochrome;
+color2 = color_monochrome;
+color3 = color_monochrome;
+color4 = color_monochrome;
+color5 = color_monochrome;
+color6 = color_monochrome;
+color7 = color_monochrome;
+color8 = color_monochrome;
+color9 = color_monochrome;
+color10 = color_monochrome;
+color11 = color_monochrome;
+color12 = color_monochrome;
+
+eval set_options
+

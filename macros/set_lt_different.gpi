@@ -1,0 +1,4 @@
+set linetype 1 lt 13;
+
+eval set_lc;
+

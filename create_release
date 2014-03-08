@@ -1,0 +1,25 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source "${DIR}/defaults.bash"
+
+./parse_macros
+
+mkdir -vp ${project_name}
+
+cp "${project_name}.gpi" "${project_name}/"
+cp texall LICENSE README.md "${project_name}/"
+cp "latex/gnuplot-single.tex" "${project_name}/"
+
+olddir="`pwd`"
+cd latex
+for file in `ls ex_*.tex | grep -v gnuplot`; do
+    rtex "$file"
+done
+
+rtex examples.tex
+cp examples.pdf ../${project_name}/
+cp template.tex ../${project_name}/
+
+cd "${olddir}"
+tar -cf ${project_name}.tar ${project_name}/
+

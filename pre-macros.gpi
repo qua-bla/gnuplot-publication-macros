@@ -1,0 +1,9 @@
+
+print ''
+print 'Loading gnuplot-publication-macros (c) 2014 Michael Herold'
+print '<https://userpage.physik.fu-berlin.de/~herold/>
+
+set macros
+
+Color(x) = sprintf('#%s', x)
+

@@ -1,0 +1,15 @@
+set linetype 1 lt lt1;
+set linetype 2 lt lt2;
+set linetype 3 lt lt1;
+set linetype 4 lt lt2;
+set linetype 5 lt lt1;
+set linetype 6 lt lt2;
+set linetype 7 lt lt1;
+set linetype 8 lt lt2;
+set linetype 9 lt lt1;
+set linetype 10 lt lt2;
+set linetype 11 lt lt1;
+set linetype 12 lt lt2;
+
+eval set_lc;
+

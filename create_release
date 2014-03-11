@@ -7,7 +7,7 @@ source "${DIR}/defaults.bash"
 mkdir -vp ${project_name}
 
 cp "${project_name}.gpi" "${project_name}/"
-cp texall LICENSE README.md "${project_name}/"
+cp texall defaults.bash LICENSE README.md "${project_name}/"
 cp "latex/gnuplot-single.tex" "${project_name}/"
 
 olddir="`pwd`"

@@ -42,7 +42,11 @@ load 'mydefaults.gpi'
 ## List of Macros
 
 ```
+@ensure_defaults
 @set_color_bluegreen
+@set_color_mm
+@set_color_nice
+@set_color_rainbow2
 @set_color_rainbow
 @set_color_wild1
 @set_lc

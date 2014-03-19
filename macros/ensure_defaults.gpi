@@ -1,13 +1,13 @@
 # default color of the grid/tics
-if (!exists("grid_color")) { grid_color="777777" };
+if (!exists("grid_color")) { grid_color="555555" };
 
 # dimensions of the full graphic (cm)
-if (!exists("width")) { width=8.3 };
-if (!exists("height")) { height=5.5 };
+if (!exists("width")) { width=8.5 };
+if (!exists("height")) { height=5.2 };
 
 # can be tiny, scriptsize, footnotesize, small, ...
-if (!exists("fontsize")) { fontsize="scriptsize" };
-if (!exists("label_fontsize")) { label_fontsize="footnotesize" };
+if (!exists("fontsize")) { fontsize="footnotesize" };
+if (!exists("label_fontsize")) { label_fontsize="small" };
 
 # a numer that defines how much space is left between text objects
 if (!exists("fontspace")) { fontspace=6 };

@@ -1,0 +1,15 @@
+color1 = "993D90";
+color2 = "3D5A99";
+color3 = "3D9956";
+color4 = "998C3D";
+color5 = "993D71";
+color6 = "3F3D99";
+color7 = "996D3D";
+color8 = "43993D";
+color9 = "3D7999";
+color10= "843D99";
+color11= "994E3D";
+color12= "62993D";
+
+eval set_lc;
+

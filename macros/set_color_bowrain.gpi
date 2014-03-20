@@ -1,0 +1,9 @@
+color1 = "ED1C24";
+color2 = "00ADEF";
+color3 = "2E3192";
+color4 = "00A650";
+color5 = "F89C0E";
+color6 = "2056AE";
+
+eval set_lc;
+

@@ -8,6 +8,8 @@ if (!exists("height")) { height=5.2 };
 # can be tiny, scriptsize, footnotesize, small, ...
 if (!exists("fontsize")) { fontsize="scriptsize" };
 if (!exists("label_fontsize")) { label_fontsize="footnotesize" };
+if (!exists("fontsize_inset")) { fontsize_inset="tiny" };
+if (!exists("label_fontsize_inset")) { label_fontsize_inset="tiny" };
 
 # a numer that defines how much space is left between text objects
 if (!exists("fontspace")) { fontspace=6 };

@@ -1,0 +1,17 @@
+set origin 0.12,0.52;
+set size 0.4,0.4;
+
+grid_color=color1;
+
+eval set_options;
+
+set format "\T{%g}";
+set format x "\U{%g}";
+
+set object 1 rect from graph 0,graph 0 to graph 1,graph 1 fc rgb "#FBFBFB" fs solid 1.0 noborder behind;
+
+unset key;
+unset grid;
+unset xlabel;
+unset ylabel;
+

@@ -1,0 +1,18 @@
+
+eval ensure_defaults;
+
+set terminal epslatex size width cm , height cm color
+ header latex_font."\".fontsize. 
+  "\newcommand{\X}[1]{\vspace{-6pt}{\".label_fontsize." #1}}".
+  "\newcommand{\Y}[1]{{\".label_fontsize." #1}}".
+  "\newcommand{\x}[1]{\vspace{0pt}{\".label_fontsize_inset." #1}}".
+  "\newcommand{\y}[1]{{\".label_fontsize_inset." #1}\vspace{-15pt}}".
+  "\newcommand{\Q}[1]{\color[HTML]{".grid_color."}$\mathsf{#1}$}".
+  "\newcommand{\R}[1]{\vspace{-3pt}\Q{#1}}".
+  "\newcommand{\T}[1]{\".fontsize_inset."\Q{#1}}".
+  "\newcommand{\U}[1]{\vspace{-3pt}\T{#1}}".
+  "\newcommand{\Ke}[1]{\vspace{-1pt}{\tiny#1}}".
+  "\newcommand{\cE}[1]{\cN{\num{#1}}}".post_header fontspace ;
+
+eval set_options;
+

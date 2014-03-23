@@ -1,19 +1,7 @@
 
-eval ensure_defaults;
-
 # applies many variables which should be allready set
 set border linecolor rgb Color(grid_color);
 set grid linecolor rgb Color(grid_color);
-
-set terminal epslatex size width cm , height cm color
- header latex_font."\".fontsize. 
-  "\newcommand{\X}[1]{\vspace{-6pt}{\".label_fontsize." #1}}".
-  "\newcommand{\Y}[1]{{\".label_fontsize." #1}}".
-  "\newcommand{\Q}[1]{\color[HTML]{".grid_color."}$\mathsf{#1}$}".
-  "\newcommand{\R}[1]{\vspace{-3pt}\Q{#1}}".
-  "\newcommand{\Ke}[1]{\vspace{-1pt}{\tiny#1}}".
-  "\newcommand{\cE}[1]{\cN{\num{#1}}}".post_header fontspace ;
-
 set key box lc rgb Color(grid_color);
 set key spacing 1.5;
 set key height 0.6;

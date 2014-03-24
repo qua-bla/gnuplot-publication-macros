@@ -1,0 +1,18 @@
+pstr = "set palette defined (";
+
+pcolor = "";
+n=1;
+do for [i in take_colors] {
+    eval sprintf("mycolor=color%s", i);
+    if (n!=1) {
+        pcolor=pcolor.", ";
+    };
+    pcolor = sprintf("%s%i %s%s%s", pcolor, n, dquote, Color(mycolor), dquote);
+    n=n+1;
+};
+
+pstr = pstr.pcolor;
+pstr = pstr.");";
+
+eval pstr;
+

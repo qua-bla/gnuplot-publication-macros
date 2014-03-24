@@ -32,6 +32,8 @@ if (!exists("color12")) { color12= "000000" };
 
 if (!exists("color_monochrome")) { color_monochrome= "000000" };
 
+if (!exists("take_colors")) { take_colors = "1 2 3 4 5 6" };
+
 # linetypes for alternating et al.
 if (!exists("lt1")) { lt1 = 1 };
 if (!exists("lt2")) { lt2 = 5 };

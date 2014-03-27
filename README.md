@@ -33,7 +33,7 @@ while your plotting file contains something like
 ...
 \begin{gnuplot}
 load 'mydefaults.gpi'
-@set_options
+@init_options
 ...
 ```
 
@@ -43,18 +43,25 @@ load 'mydefaults.gpi'
 
 ```
 @ensure_defaults
+@init_options
 @set_color_bluegreen
+@set_color_bowrain
 @set_color_mm
-@set_color_nice
+@set_color_rainbow1
 @set_color_rainbow2
-@set_color_rainbow
+@set_color_rainbow3
+@set_color_red
+@set_color_redsafe
 @set_color_wild1
+@set_color_wild2
+@set_inset
 @set_lc
 @set_lt_alternating
 @set_lt_different
 @set_lt_identical
 @set_monochrome
 @set_options
+@set_palette_from_lc
 @set_xaxis_2pi
 @set_xaxis_percent
 @set_xaxis_pi

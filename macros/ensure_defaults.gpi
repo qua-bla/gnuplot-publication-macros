@@ -6,8 +6,8 @@ if (!exists("width")) { width=8.5 };
 if (!exists("height")) { height=5.2 };
 
 # can be tiny, scriptsize, footnotesize, small, ...
-if (!exists("fontsize")) { fontsize="scriptsize" };
-if (!exists("label_fontsize")) { label_fontsize="footnotesize" };
+if (!exists("fontsize")) { fontsize="footnotesize" };
+if (!exists("label_fontsize")) { label_fontsize="small" };
 if (!exists("fontsize_inset")) { fontsize_inset="tiny" };
 if (!exists("label_fontsize_inset")) { label_fontsize_inset="tiny" };
 

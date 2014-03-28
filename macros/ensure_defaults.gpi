@@ -11,7 +11,7 @@ if (!exists("label_fontsize")) { label_fontsize="small" };
 if (!exists("fontsize_inset")) { fontsize_inset="tiny" };
 if (!exists("label_fontsize_inset")) { label_fontsize_inset="tiny" };
 
-# a numer that defines how much space is left between text objects
+# a number that defines how much space is left between text objects
 if (!exists("fontspace")) { fontspace=6 };
 
 if (!exists("line_width")) { line_width=4 };
@@ -43,4 +43,11 @@ if (!exists("post_header")) { post_header = "" };
 
 # font
 if (!exists("latex_font")) { latex_font = "\sansmath\sffamily" };
+
+# decimal points of axis tics (x,y)
+if (!exists("x_decimal_places")) { x_decimal_places = 1 };
+if (!exists("y_decimal_places")) { y_decimal_places = 1 };
+
+
+
 

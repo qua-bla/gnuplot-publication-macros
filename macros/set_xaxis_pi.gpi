@@ -1,2 +1,2 @@
-set format x "\R{%.0P\uppi}";
-set xtics pi;
+set format x "\R{%.".x_decimal_places."P\uppi}";
+set xtics 

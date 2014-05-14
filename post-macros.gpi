@@ -1,1 +1,3 @@
+margin(t,r,b,l) = sprintf("set tmargin %f; set rmargin %f; set bmargin %f; set lmargin %f;", 1-t, 1-r, b, l)
+
 print 'Ready.'

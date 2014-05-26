@@ -1,3 +1,4 @@
-margin(t,r,b,l) = sprintf("set tmargin %f; set rmargin %f; set bmargin %f; set lmargin %f;", 1-t, 1-r, b, l)
+margin(t,r,b,l) = sprintf("set tmargin at screen %f; set rmargin at screen %f; set bmargin at screen %f; set lmargin at screen %f;", 1-t, 1-r, b, l)
+margin_cm(t,r,b,l) = margin(sprintf("%.5f",t)/height, sprintf("%.5f",r)/width, sprintf("%.5f",b)/height, sprintf("%.5f",l)/width)
 
 print 'Ready.'

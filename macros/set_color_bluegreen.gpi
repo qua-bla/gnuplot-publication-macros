@@ -1,15 +1,15 @@
-color1 = "081d58";
+color1 = "081D58";
 color2 = "253494";
-color3 = "225ea8";
-color4 = "1d91c0";
-color5 = "41b6c4";
-color6 = "7fcdbb";
-color7 = "c7e9b4";
-color8 = "fed976";
-color9 = "feb24c";
-color10= "fd8d3c";
-color11= "f03b20";
-color12= "bd0026";
+color3 = "225EA8";
+color4 = "1D91C0";
+color5 = "41B6C4";
+color6 = "7FCDBB";
+color7 = "C7E9B4";
+color8 = "FED976";
+color9 = "FEB24C";
+color10= "FD8D3C";
+color11= "F03B20";
+color12= "BD0026";
 
 eval set_lc;
 

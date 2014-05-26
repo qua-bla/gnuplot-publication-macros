@@ -1,3 +1,16 @@
+color_header="".
+"\definecolor{gp1}{HTML}{".color1."}".
+"\definecolor{gp2}{HTML}{".color2."}".
+"\definecolor{gp3}{HTML}{".color3."}".
+"\definecolor{gp4}{HTML}{".color4."}".
+"\definecolor{gp5}{HTML}{".color5."}".
+"\definecolor{gp6}{HTML}{".color6."}".
+"\definecolor{gp7}{HTML}{".color7."}".
+"\definecolor{gp8}{HTML}{".color8."}".
+"\definecolor{gp9}{HTML}{".color9."}".
+"\definecolor{gp10}{HTML}{".color10."}".
+"\definecolor{gp11}{HTML}{".color11."}".
+"\definecolor{gp12}{HTML}{".color12."}";
 
 set terminal epslatex size width cm , height cm color
  header latex_font."\".fontsize. 
@@ -10,7 +23,8 @@ set terminal epslatex size width cm , height cm color
   "\newcommand{\T}[1]{\".fontsize_inset."\Q{#1}}".
   "\newcommand{\U}[1]{\T{#1}}".
   "\newcommand{\Ke}[1]{{\tiny#1}}".
-  "\newcommand{\cE}[1]{\cN{\num{#1}}}".post_header fontspace ;
+  "\newcommand{\cE}[1]{\cN{\num{#1}}}".color_header.
+  post_header fontspace;
 
 # applies many variables which should be allready set
 set border linecolor rgb Color(grid_color);

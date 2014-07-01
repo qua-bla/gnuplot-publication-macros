@@ -1,0 +1,30 @@
+\input{gnuplot-single}
+
+\begin{document}
+\begin{gnuplot}
+@EMPTY_LINE_OR_COMMENT_AT_THIS_LINE_NOT_ALLOWED
+
+# You can uncomment variable definitions below to make adjustments
+
+# dimensions of the full graphic (cm)
+#width=12
+#height=8
+
+# font sizes, can be tiny, scriptsize, footnotesize, small, ...
+#fontsize = "scriptsize"
+#label_fontsize = "footnotesize"
+
+# a numer that defines how much space is left between text objects
+#fontspace = 7
+
+# line width
+#line_width = 2
+
+# font type (latex commands)
+#latex_font = ""
+
+@init_options
+
+plot [0:3./2.*pi] sin(x), cos(x), -0.5 t 'constant line'
+\end{gnuplot}
+\end{document}

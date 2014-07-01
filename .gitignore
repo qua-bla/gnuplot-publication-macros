@@ -1,0 +1,8 @@
+*.pdf
+*-gnuplottex-*
+*.aux
+*.log
+*.pdf
+*.synctex.gz
+gnuplot-publication-macros.gpi
+gnuplot-publication-macros/

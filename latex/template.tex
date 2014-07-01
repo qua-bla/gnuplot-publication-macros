@@ -23,8 +23,34 @@
 # font type (latex commands)
 #latex_font = ""
 
+# change the default line colors
+@set_color_bluegreen
+
+# use some of the line colors for the palette
+take_colors="7 6 5 4 3 2 1"
+@set_palette_from_lc
+
 @init_options
 
+set multiplot
+
+set xlabel '$x$-label'
+set ylabel '$y$-label'
+
+set ylabel offset 2.5,0
+
 plot [0:3./2.*pi] sin(x), cos(x), -0.5 t 'constant line'
+
+eval margin(0.4,0.5,0.3,0.3)
+
+unset ylabel
+unset xlabel
+
+plot '-' with image
+1 1 3
+1 2 9
+2 1 5
+2 2 6
+
 \end{gnuplot}
 \end{document}

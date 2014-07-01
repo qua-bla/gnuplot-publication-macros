@@ -62,10 +62,13 @@ load 'mydefaults.gpi'
 @set_monochrome
 @set_options
 @set_palette_from_lc
-@set_xaxis_2pi
 @set_xaxis_percent
 @set_xaxis_pi
 @set_yaxis_percent
+@set_yaxis_pi
+
+eval margin(0.4,0.5,0.3,0.3)
+eval margin_cm(2,2,2,2)
 ```
 
 ## Typical adjustments
@@ -79,5 +82,9 @@ Key placement
 Increase Key width
 - set key width 2
 
+Move x-label closer to x-axis
+- set xlabel offset 0,0.5
 
+Move y-label closer to y-axis
+- set ylabel offset 2.5,0
 

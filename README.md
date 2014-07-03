@@ -71,6 +71,52 @@ eval margin(0.4,0.5,0.3,0.3)
 eval margin_cm(2,2,2,2)
 ```
 
+## List of Variables
+
+All colors in upper-case hex-format like *000000* for black.
+
+- *grid_color*, used for border, grid and key box color
+- *label_color*, color for labels like xlabel
+
+- *width*, width of the complete output in cm
+- *height*, height of the complete output in cm
+
+- *fontsize*, font size for most text in the plot (manly tics and key)
+- *label_fontsize*, font size for labels like xlabel
+- *fontsize_inset*, undocumented
+- *label_fontsize_inset*, undocumented
+
+- *fontspace*, default space calculated for text (integer parameter)
+
+- *line_width*, default line width for plotted lines
+
+- *color1*, color for `linecolor 1`
+- *color2*, ...
+- *color3*
+- *color4*
+- *color5*
+- *color6*
+- *color7*
+- *color8*
+- *color9*
+- *color10*
+- *color11*
+- *color12*
+
+- *color_monochrome*, color used if monchrome macro is called
+
+- *take_colors*, String of space seperated integers. The integers define the color numbers that are used to define a palette if `@set_palette_from_lc` is called.
+
+- *lt1*, first line type to use by `@set_lt_alternating` and used by `@set_lt_identical`
+- *lt2*, second line type to use by `@set_lt_alternating`
+
+- *post_header*, latex code to run before plot creation but after header
+
+- *latex_font*, latex commands to define the font in plot
+
+- *x_decimal_places*, number of decimal places to use for xtics (relevant for `@set_xaxis_percent`, `@set_xaxis_pi`)
+- *y_decimal_places*, ...
+
 ## Typical adjustments
 
 Key placement

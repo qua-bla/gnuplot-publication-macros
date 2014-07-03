@@ -7,3 +7,7 @@ set macros
 
 Color(x) = sprintf('#%s', x)
 dquote = '"'
+
+# define this nothing doing macro for the template.tex
+EMPTY_LINE_OR_COMMENT_AT_THIS_LINE_NOT_ALLOWED = ''
+

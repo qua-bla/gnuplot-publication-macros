@@ -134,3 +134,4 @@ Move x-label closer to x-axis
 Move y-label closer to y-axis
 - set ylabel offset 2.5,0
 
+See https://github.com/Gnuplotting/gnuplot-palettes for a collection of nice gnuplot palettes.

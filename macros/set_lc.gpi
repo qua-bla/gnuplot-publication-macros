@@ -11,4 +11,5 @@ set linetype 9  lc rgb Color(color9);
 set linetype 10 lc rgb Color(color10);
 set linetype 11 lc rgb Color(color11);
 set linetype 12 lc rgb Color(color12);
+set linetype 13 lc rgb Color(color13);
 

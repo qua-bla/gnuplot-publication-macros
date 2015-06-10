@@ -15,7 +15,7 @@ color_header="".
 set terminal epslatex size width cm , height cm color
  header latex_font."\".fontsize. 
   "\newcommand{\X}[1]{{\color[HTML]{".label_color."}\".label_fontsize." #1}}".
-  "\newcommand{\Y}[1]{{\".label_fontsize." #1}}".
+  "\newcommand{\Y}[1]{{\color[HTML]{".label_color."}\".label_fontsize." #1}}".
   "\newcommand{\x}[1]{{\".label_fontsize_inset." #1}}".
   "\newcommand{\y}[1]{{\".label_fontsize_inset." #1}}".
   "\newcommand{\Q}[1]{{\color[HTML]{".grid_color."}$\mathsf{#1}$}}".

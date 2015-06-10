@@ -1,0 +1,15 @@
+color1 = "000000";
+color2 = "222222";
+color3 = "444444";
+color4 = "666666";
+color5 = "888888";
+color6 = "AAAAAA";
+color7 = "CCCCCC";
+color8 = "EEEEEE";
+color9 = "111111";
+color10= "333333";
+color11= "555555";
+color12= "777777";
+
+eval set_lc;
+

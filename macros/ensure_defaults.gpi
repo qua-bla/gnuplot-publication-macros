@@ -30,6 +30,7 @@ if (!exists("color9")) { color9 = "00FF8F" };
 if (!exists("color10")) { color10= "00A0F0" };
 if (!exists("color11")) { color11= "CCCCCC" };
 if (!exists("color12")) { color12= "000000" };
+if (!exists("color13")) { color13= "FFFFFF" };
 
 if (!exists("color_monochrome")) { color_monochrome= "000000" };
 

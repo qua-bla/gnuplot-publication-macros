@@ -15,7 +15,7 @@ if (!exists("label_fontsize_inset")) { label_fontsize_inset="tiny" };
 # a number that defines how much space is left between text objects
 if (!exists("fontspace")) { fontspace=6 };
 
-if (!exists("line_width")) { line_width=4 };
+if (!exists("line_width")) { line_width=3 };
 
 # colors for lines/points
 if (!exists("color1")) { color1 = "FF1B00" };

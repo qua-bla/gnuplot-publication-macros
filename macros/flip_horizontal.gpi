@@ -1,0 +1,5 @@
+set ytics format "";
+set y2tics;
+eval margin(tmargin, lmargin, bmargin, rmargin);
+y_label_position = width-y_label_position;
+

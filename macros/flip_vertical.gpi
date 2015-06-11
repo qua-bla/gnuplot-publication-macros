@@ -1,0 +1,5 @@
+set xtics format "";
+set x2tics;
+eval margin(bmargin, rmargin, tmargin, lmargin);
+x_label_position = height-x_label_position;
+

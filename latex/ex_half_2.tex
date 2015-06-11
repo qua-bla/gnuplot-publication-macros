@@ -1,0 +1,26 @@
+\input{gnuplot-single}
+
+\begin{document}
+\begin{gnuplot}
+@init_options
+width=width/2
+@set_options
+@set_color_bluegreen
+
+
+load 'example-options.gnuplot'
+unset key
+eval margin_cm(0.1,0.1,0.7,1.0)
+@flip_horizontal
+@flip_vertical
+set x2range [-4:0.5]
+set x2tics 1
+set xtics 1
+eval x_label('The Quick B$r$own Fox')
+eval y_label('Jumps Over the $L$azy Dog')
+unset xlabel
+unset ylabel
+load 'example-plot.gnuplot'
+
+\end{gnuplot}
+\end{document}

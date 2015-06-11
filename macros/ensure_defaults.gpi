@@ -6,6 +6,10 @@ if (!exists("label_color")) { label_color="000000" };
 if (!exists("width")) { width=8.5 };
 if (!exists("height")) { height=5.2 };
 
+# other dimensions
+if (!exists("x_label_position")) { x_label_position=0.2 };
+if (!exists("y_label_position")) { y_label_position=0.2 };
+
 # can be tiny, scriptsize, footnotesize, small, ...
 if (!exists("fontsize")) { fontsize="scriptsize" };
 if (!exists("label_fontsize")) { label_fontsize="footnotesize" };

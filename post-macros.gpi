@@ -3,8 +3,11 @@ margin(t,r,b,l) = sprintf("set tmargin at screen %f; set rmargin at screen %f; s
 
 margin_cm(t,r,b,l) = margin(sprintf("%.5f",t)/height, sprintf("%.5f",r)/width, sprintf("%.5f",b)/height, sprintf("%.5f",l)/width)
 
-x_label(text) = sprintf("set label 101 '%s' at screen %f,%f center", text, 0.5*(1+lmargin-rmargin), 0.05)
+x_label_plain(text) = sprintf("set label 101 '%s' at screen %f,%f center", text, 0.5*(1+lmargin-rmargin), x_label_position/height)
 
-y_label(text) = sprintf("set label 102 '%s' at screen %f,%f rotate center", text, 0.05, 0.5*(1-tmargin+bmargin))
+x_label(text) = x_label_plain(sprintf('\X{%s}', text))
+
+y_label_plain(text) = sprintf("set label 102 '%s' at screen %f,%f rotate center", text, y_label_position/width, 0.5*(1-tmargin+bmargin))
+y_label(text) = y_label_plain(sprintf('\Y{%s}', text))
 
 print 'Ready.'
